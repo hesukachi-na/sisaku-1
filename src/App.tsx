@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-
+import { db } from './firebase';
+import { ref, onValue, set } from 'firebase/database';
 /* =========================
    物語アプリ（完全版・保存機能付き）
 ========================= */
